@@ -1,0 +1,231 @@
+body::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; 
+    background-image: url("https://images.unsplash.com/photo-1712397943847-e104395a1a8b?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    z-index: -1;
+    opacity: 1;
+    height:900px;
+}
+#head{
+    width: 900px;
+    height: 200px;
+    margin: 195px -140px;
+}
+h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 43px;
+   text-shadow:9px 4px 14px rgb(94 115 235);
+}
+.box{
+    border: 2px rgb(0, 0, 0) solid;
+    width: 319px;
+    height: 372px;
+    display: inline-block;
+    box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.5);
+
+}
+/* #box1{
+    background-image: url("https://i.pinimg.com/564x/33/3c/a2/333ca2c8e19b327d739b2a32e0fb5994.jpg");
+    background-size: cover;
+    position: relative;
+    top: -251px;
+    left: 144px;
+}
+#box2{
+    background-image: url("https://i.pinimg.com/564x/77/97/fc/7797fca87154f8d93a02e3506d6fb9ee.jpg");
+    background-size: cover;
+    position: relative;
+    top: -120px;
+    left: 57px;
+}
+
+#box3{
+    background-image: url("https://i.pinimg.com/736x/ae/70/96/ae7096e8c42185fbc1eda6b54eefa4f8.jpg");
+    background-size: cover;
+    position: relative;
+ 
+}
+#box4{
+    background-image: url("https://i.pinimg.com/564x/2b/c1/c9/2bc1c9c6efc3c194e67f30bfb0aa5e22.jpg");
+    background-size: cover;
+    position: relative;
+    top: -9px;
+    left: 13px
+} */
+.navbar{
+    width:100vw;
+    height: 100px;
+    top: 0px;
+}
+#logo{
+    width: 60px;
+    height: 60px;
+    left: 10px;
+    background-image: url("https://www.freepnglogos.com/uploads/j-letter-png/letter-j-granny-enchanted-blog-chrome-swirl-digi-scrapbook-19.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+a{
+    color:white;
+    margin: 2px 29px;
+   font-size: 20px;
+   text-decoration: none;
+}
+a:hover{
+    background-color: aliceblue;
+     color: rgb(0, 183, 255);
+     border-radius: 4px;
+}
+
+#content{
+top:12px;
+position: absolute;
+right:45px;
+}
+
+input{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(18, 109, 228);
+    color: rgb(255, 255, 255);
+    position: relative;
+    left:394px;
+    top: 13px;
+    border-radius: 10px;
+}
+input:hover{
+    background-color: aliceblue;
+    color: blue;
+}
+.pic{
+    width: 714px;
+    height: 509px;
+    background-image: url(/vecteezy_people-work-in-a-team-development-of-business-project-from_26567255.png);
+    background-size: cover;
+    position: absolute;
+    top: 212px;
+    right: 26px;
+}
+#services::before{
+    content:"";
+     position: absolute;
+    top:900px;
+    bottom:0;
+    left: 0;
+    right: 0; 
+    background-image:url("https://t4.ftcdn.net/jpg/01/67/63/19/240_F_167631939_r5TmpQHvONrQoJdYPTgSQ4zBxc6xP6f7.jpg");
+    background-size: cover;
+    z-index: -1;
+    opacity: 1;
+    height: 900px;
+}
+
+#servh{
+    width: 600px;
+    height: 100px;
+    position: relative;
+    top: 241px;
+    left: 370px;
+}
+#servh h1{
+    color: rgb(0, 119, 255);
+}
+#box1{
+    background-image: url("https://i.pinimg.com/564x/33/3c/a2/333ca2c8e19b327d739b2a32e0fb5994.jpg");
+    background-size: cover;
+    position: relative;
+    top: 10px;
+    left: -1px;
+}
+#box2{
+    background-image: url("https://i.pinimg.com/564x/77/97/fc/7797fca87154f8d93a02e3506d6fb9ee.jpg");
+    background-size: cover;
+    position: relative;
+    top: 10px;
+    left:-4px;
+}
+
+#box3{
+    background-image: url("https://i.pinimg.com/736x/ae/70/96/ae7096e8c42185fbc1eda6b54eefa4f8.jpg");
+    background-size: cover;
+    position: relative;
+    top: 10px;
+    left: -10px;
+}
+.cont1{
+    width: 399px;
+    height: 614px;
+    position: relative;
+    top: 350px;
+    left: 31px;
+    text-align: center;
+    display: inline-block;
+}  
+.cont1 input{ 
+    width: 100px;
+    height: 40px;
+    background-color: rgb(18, 109, 228);
+    color: rgb(255, 255, 255);
+    position: relative;
+    left:-1px;
+    top: 14px;
+    border-radius: 10px;
+}
+.cont2{
+    width: 348px;
+    height: 614px;
+    position: relative;
+    top: 348px;
+    left: 78px;
+    text-align: center;
+    display: inline-block;
+}
+.cont2 input{ 
+    width: 100px;
+    height: 40px;
+    background-color: rgb(18, 109, 228);
+    color: rgb(255, 255, 255);
+    position: relative;
+    left:-4px;
+    top: 16px;
+    border-radius: 10px;
+}
+.cont3{
+
+    width: 340px;
+    height: 614px;
+    position: relative;
+    top: 348px;
+    left: 124px;
+    text-align: center;
+    display: inline-block;
+}
+.cont3 input{ 
+    width: 100px;
+    height: 40px;
+    background-color: rgb(18, 109, 228);
+    color: rgb(255, 255, 255);
+    position: relative;
+    left:5px;
+    top: 14px;
+    border-radius: 10px;
+}
+#Contact::before{
+ content:"";
+ position: absolute;
+ top:1800px;
+ bottom: 0;
+ left: 0;
+ right: 0;
+ background-image: url("https://img.freepik.com/free-vector/paper-style-dynamic-lines-background_23-2149008629.jpg?t=st=1723383800~exp=1723387400~hmac=fb7275d7b8a7135eb4eb8224e9e784e2c82f7a050f30c90d1db5f1b0813f7efb&w=740");
+ background-size:cover ;
+ z-index: -1;
+ height: 900px;
+}
+/* https://t3.ftcdn.net/jpg/03/91/46/10/240_F_391461057_5P0BOWl4lY442Zoo9rzEeJU0S2c1WDZR.jpg */
